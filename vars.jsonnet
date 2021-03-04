@@ -12,7 +12,7 @@
     },
     {
       name: 'armExporter',
-      enabled: false,
+      enabled: true,
       file: import 'modules/arm_exporter.jsonnet',
     },
     {
@@ -43,8 +43,8 @@
   ],
 
   k3s: {
-    enabled: false,
-    master_ip: ['192.168.1.15'],
+    enabled: true,
+    master_ip: ['192.168.1.143'],
   },
 
   // Domain suffix for the ingresses
