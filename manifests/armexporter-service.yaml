@@ -6,7 +6,6 @@ metadata:
   name: arm-exporter
   namespace: monitoring
 spec:
-  clusterIP: None
   ports:
   - name: https
     port: 9243
